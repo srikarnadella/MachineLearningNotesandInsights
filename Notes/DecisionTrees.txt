@@ -1,0 +1,24 @@
+Decision Tree:
+    *Construct a flowchart to help you decide a classification for something with machine learning
+    *Form of supervised learning
+    *layers of modeling
+
+    Ex:
+        *Hiring decision Tree
+        *Database of historical hiring Database
+        *Determines whether a candidate gets hired or not
+        Ex Tree:
+                                                                            Did an Internship
+                                                                N: Currently Employed       Y: hired
+                                            N: Less than one employer Y: hired
+                                N: Attend a top school      Y Dont Hire
+                            N: Don't hire  Y: Hire    
+
+        *At Ezch step find attribute we can use to partiiton the data set to minimize the entropy of the data
+        *Greedy Algo:
+            *As it goes down the tree it picks the decision that reduces entropy
+
+    *Issue is that they are prone to overfitting
+        *Combat this by constructing alternate decision trees to help decide (Random Forests)
+            *Random Forests are an example of Ensemble learning
+                *Using multiple models to work together

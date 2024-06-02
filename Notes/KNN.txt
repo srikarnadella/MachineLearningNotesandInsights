@@ -1,0 +1,4 @@
+K-Nearest Neighbor (KNN):
+*Used to classify data points based on their distance to known data
+*Need to define a distance metric
+*Supervised Learning

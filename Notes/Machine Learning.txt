@@ -1,0 +1,23 @@
+Machine Learning: Algorithms that can learn from observational data and can make predictions (Linear regression)
+
+Unsupervised Learning: 
+    *Model is not given answers to learn from (aka no Y)
+    *Trying to let the model to figure it out on its own
+    *Useful if you don't know what you are looking for as the model can find different relations
+    *Clustering
+
+
+Supervised Learning:
+    *Algo learns as it has the correct answers
+    *Used to predict values (Car price prediction)
+
+    Train and Test:
+        *Good way to test Supervised Learning
+        *You split your data into train and test (80% train)
+        *Good to prevent OVERFITTING
+        *SPLIT NEEDS TO BE RANDOMLY SELECTED
+        *Data sets need to large to ensure that it is representative
+
+        K-fold Cross validation:
+            *Repeatedly doing train and test with multiple samples
+            *Essentially shuffling the train and test data to make sure that is versatile

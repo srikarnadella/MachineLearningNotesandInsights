@@ -1,0 +1,6 @@
+SVM:
+    *Works well with higher-dimensional data (tons of features)
+    *Divides the large amount of data (features) by dividng them into support vectors
+    *Use a "kernel trick" to represent the data in high dimensional spaces to find hyper planes that aren't apparent in lower dimensions
+    *In short, use them when you have a lot of features
+    *Supervised learning

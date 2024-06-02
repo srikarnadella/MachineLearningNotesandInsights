@@ -1,0 +1,19 @@
+Linear Regression:
+    *Fitting a straight line through a set of observations
+    *Line is used to predict unobserved values
+    *Typically uses least squares
+    *Minimizes the squared error between each point and the line
+    *Gradient descent is an alternate to this but works with multi-dimensional data
+    *Measured by R^2 (1 - (sum of squared errors)/(sum of squared variations of mean))
+    *Ranges from 0-1 where 0 is bad with 1 being a perfect fit
+
+Polynomial Regression:
+    *Fitting a polynomial through a set of observations
+    *OVERFITTING
+        *Don't use more data than you need
+        *"Is your curve going out of its way to accommodate outliers?"
+        *High R^2 means your curve fits your training data well not the scenario
+
+Multiple Regression:
+    *More than one variable influences the DV
+    *Prediction price of a car based on body, age, style, color, etc;
