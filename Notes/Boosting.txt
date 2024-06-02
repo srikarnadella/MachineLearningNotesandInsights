@@ -1,0 +1,11 @@
+Boosting: Alternate technique where each model in the ensemble boosts attributes the models were getting wrong
+    *Refines models by fixing the errors of the previous
+
+Bucket of Models: Trains several different models using training data and picks the best one
+
+Stacking: Runs multiple models at once and combines the results 
+
+Advanced Ensemble Learning:
+    *Bayes Optimal Classifier: Theoretically the best but the most impractical
+    *Bayesian Parameter Averaging: An attempt to make BOC more practical, but is prone to overfitting and is outperformmed by bagging
+    *Bayesian model combination: Attempts to address all the problems, but is essentially the same as cross-validation

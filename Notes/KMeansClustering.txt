@@ -1,0 +1,17 @@
+K-Means Clustering:
+    *Attempts to split data into K groups that are closet to K centroids
+    *Unsupervised learning 
+    *Used to find interesting groupings of people/things/behaviour
+
+    How it works:
+        *Randomly picks K centroids (k-means)
+        *Assign the data points which centroid its closest too
+        *Recompute the centroids based on the average of the data nearest too it
+        *Keep going through the data once the points consistently match to the same centroid
+    
+    Limitations:
+        *Choosing a K value, increasing the value until you stop getting large reductions in squared error
+        *Avoiding local minima:
+            *Clustering focuses on local instead of global
+        *Labeling the clusters
+            *Finding the relationship is hard

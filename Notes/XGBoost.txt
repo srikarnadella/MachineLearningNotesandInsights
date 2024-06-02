@@ -1,0 +1,28 @@
+XGBoost: Most powerful ML Algo Random
+
+*Stands for eXtreme Gradient Boosted trees
+*Algos just building on top of each other (learns from the previous models errors)
+
+Features:
+    *Regularized boosting (generalized and not overfitted)
+        *L1 and L2
+    *Can handle missing vals
+    *Parallel Processing
+    *Can cross validate at each iteration
+        *Can early stop therefore finding the optiaml amount of iterations
+    *Incremental training
+        *Can stop the training and resume it later
+    *Can optimize it to your own objectives
+    *Tree pruning:
+        *Deeper but more optimized trees
+
+Hyperparamters:
+    *Difficult part of this model
+    *Adjusting these settings are key to an accurate model
+
+    *Booster (gbtree or gblinear)
+    *Objective: (multi: softmax, multi:softprob)
+    Experimenting params:
+        *Eta: learning rate (0.2 or lower is better in practice, default is 0.3)
+        *Max_depth: too small is not accurate too large is overfitting
+        *Min_child_weight: Another overfitting control, high will underfit

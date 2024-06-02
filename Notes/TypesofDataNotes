@@ -1,0 +1,15 @@
+Numerical: Quantative Data
+    *Heights, page load times
+
+    Discrete data: Integer based
+        *How many purchases did a customer make in a year
+        *How many times will I flip heads
+
+    Continous Data: infinite number of possible values
+        *How much time did it take for them to checkout
+
+Categorical: Qualitative data that has no mathematical meaning
+    *Gender Y/N
+
+Ordinal: Mixture of numerical and Categorical
+    *Movie rating scales on a 1-5

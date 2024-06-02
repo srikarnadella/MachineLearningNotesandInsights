@@ -1,0 +1,12 @@
+Multi Level Models:
+    *Concepts that some effects happen at various levels
+    Ex: 
+    Health depends on you: you
+        you depend on your organs and your family
+            your organs depend on your cells
+            your family depends on your city
+                your city depends on your world
+    *These models attempt to account for these interdependencies
+
+    Modeling Multiple Levels:
+        *Identify factors that affect the outcome
